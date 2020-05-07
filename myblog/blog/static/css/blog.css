@@ -1,0 +1,28 @@
+body{
+background-image: href('https://images.app.goo.gl/dGkUzicujWm3EA5r6');
+}
+ /* The side navigation menu */
+.sidebar {
+  width: 25%;
+  hight: 100%;
+  float:right;
+  background-color:#d1e0e0;
+  }
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+width:75%;
+float:left;
+padding-left:10%;
+padding-top:4%;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
